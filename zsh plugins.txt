@@ -20,3 +20,11 @@ source ~/.zshrc
 
 
 참고자료 : https://velog.io/@ruddms936/zsh-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EC%84%A4%EC%B9%98
+
+
+
+
+
+
+
+

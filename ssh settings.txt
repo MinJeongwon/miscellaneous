@@ -14,6 +14,10 @@ sudo apt-get install ssh
 ==============================================
 ssh 서버 설정 파일 들어가기
 sudo vim /etc/ssh/sshd_config
+
+or 
+
+sudo nano /etc/ssh/sshd_config
 ==============================================
 Port 22부분을 원하는 포트 넘버로 바꾸어주기
 #Port 22
