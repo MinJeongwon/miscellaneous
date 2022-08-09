@@ -1,0 +1,51 @@
+## pretty_errors 설치
+에러를 깔끔하게 보여주는 툴
+
+<br>
+
+1. pretty_errors를 pip로 설치
+   ```console
+   python -m pip install pretty_errors
+   ```
+
+2. 파이썬 스크립트를 실행할 때마다 pretty_errors가 실행되도록 하기     
+   (모든 파이썬 스크립트에 `import pretty_errors`를 할 필요가 없어짐)
+   ```console
+   python -m pretty_errors
+
+   >>> To have pretty_errors be used when you run any python file you may add it to your usercustomize.py (user level) or sitecustomize.py (system level), or to pretty_errors.pth.
+
+   (just hit <enter> to accept the defaults if you are unsure)
+   
+   >>> Choose folder to install into:
+   
+   1: /home/jwmin/anaconda3/envs/torchprac/lib/python3.7/site-packages
+   2: /home/jwmin/.local/lib/python3.7/site-packages
+   0: Exit
+   
+   Option: [default: 2]
+   
+   # 여기서 <Enter> 누르기
+   
+   
+   >>> Choose file to install into:
+
+    1: usercustomize.py
+    2: pretty_errors.pth
+    0: Exit
+
+    Option: [default: 1] 
+    
+    # 여기서 또 <Enter> 누르기
+
+
+    >>> pretty_errors added to:
+    
+    /home/jwmin/.local/lib/python3.7/site-packages/usercustomize.py
+    Edit it to set config options.
+   ```
+
+
+<br>
+
+참고자료 : https://pypi.org/project/pretty-errors/

@@ -1,0 +1,68 @@
+## vim 설치 및 에디터 설정
+
+<br>
+
+1. vim 설치
+   ```console
+   apt-get install vim
+   ```
+
+2. 플러그인 관리자 번들 설치     
+   (설치 위치는 /home/.vim/bundle이고 설치되는 이름은 Vundle.vim)
+   ```console
+   git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+   ```
+
+3. vimrc 편집
+   ```console
+   vim ~/.vimrc
+   ```
+
+4. insert 모드 전환 후 아래 내용 입력
+   ```console
+    set number    " line 표시
+    set ai    " auto indent
+    set si " smart indent
+    set cindent    " c style indent
+    set shiftwidth=4    " 자동 공백 채움 시 4칸
+    set tabstop=4    " tab을 4칸 공백으로
+    set ignorecase    " 검색 시 대소문자 무시
+    set hlsearch    " 검색 시 하이라이트
+    set nocompatible    " 방향키로 이동 가능
+    set fileencodings=utf-8,euc-kr    " 파일 저장 인코딩 : utf-8, euc-kr
+    set fencs=ucs-bom,utf-8,euc-kr    " 한글 파일은 euc-kr, 유니코드는 유니코드
+    set bs=indent,eol,start    " backspace 사용가능
+    set ruler    " 상태 표시줄에 커서 위치 표시
+    set title    " 제목 표시
+    set showmatch    " 다른 코딩 프로그램처럼 매칭되는 괄호 보여줌
+    set wmnu    " tab 을 눌렀을 때 자동완성 가능한 목록
+    syntax on    " 문법 하이라이트 on
+    filetype indent on    " 파일 종류에 따른 구문 강조
+    set mouse=a    " 커서 이동을 마우스로 가능하도록   ==> 클릭하면 그 위치로 커서 이동하긴 하는데 스크롤바 눌렀을 때 복붙이 안되는 문제가 있음
+
+    set rtp+=~/.vim/bundle/Vundle.vim	"플러그인관리
+    call vundle#begin()
+    Plugin 'VundleVim/Vundle.vim'
+    Plugin 'townk/vim-autoclose'	 "괄호 자동완성
+    Plugin 'valloric/youcompleteme'     "자동완성
+    call vundle#end()
+    ```
+
+4. 변경사항 적용
+   ```console
+   <ESC> 편집기 명령모드로 들어간 뒤 :PluginInstall 
+   # 플러그인 모두 지우고 싶은 경우 :PluginClean
+   <ESC> wq! <ENTER>
+   ```
+
+cf. you don't need to source your ~/.vimrc. It gets read every time you open vim.
+
+<br>
+
+참고자료 : https://gabii.tistory.com/entry/Ubuntu-vim-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95     
+참고자료 : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=gudrb1707&logNo=221478784489    
+참고자료 : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=gudrb1707&logNo=221478784489    
+참고자료 : https://bnmy6581.tistory.com/4    
+참고자료 : https://kamang-it.tistory.com/entry/vivimvi%EC%97%90%EC%84%9C-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EA%B4%80%EB%A6%AC-vundle    
+참고자료 : https://shaun289.github.io/2021-02-16-vim-ycm/    
+
