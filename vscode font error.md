@@ -2,7 +2,7 @@
 
 <br>
 
-1. VSCode의 설정(Ctrl + ,)에서 terminal font를 검색
+1. vscode의 설정(Ctrl + ,)에서 terminal font를 검색
 2. Terminal > Intergrated: Font Family로 이동
 3. 'Ubuntu Mono derivative Powerline'를 입력
 

@@ -16,9 +16,9 @@
    ```
 
 4. 결과
-   <p align="center"><img src="./img/powerline.png" width="400"></p>
+   <p align="center"><img src="./img/powerline.png" width="700"></p>
 
-   <p align="center"><img src="./img/terminal.png" width="400"></p>    
+   <p align="center"><img src="./img/terminal.png" width="700"></p>    
 
 참고자료 : https://github.com/romkatv/powerlevel10k     
 참고자료 : https://unicode-table.com/en/

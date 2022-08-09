@@ -30,7 +30,7 @@
    ZSH_THEME=”agnoster”
    ```
 
-6. 테마를 powerlevel10k로 변경
+6. 테마를 `powerlevel10k`로 변경
    ```console
    git clone https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
    sudo vim ~/.zshrc

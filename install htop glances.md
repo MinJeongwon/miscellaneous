@@ -6,11 +6,11 @@
    ```console
    sudo apt-get install htop
    ```
-   <p align="center"><img src="./img/htop.png" width="400"></p>    
+   <p align="center"><img src="./img/htop.png" width="700"></p>    
 
 2. glances 설치
    ```console
    sudo apt-get install glances
    ```
-   <p align="center"><img src="./img/glances.png" width="400"></p> 
+   <p align="center"><img src="./img/glances.png" width="700"></p> 
 
