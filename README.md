@@ -1,5 +1,6 @@
-# 연구실 우분투 세팅한 것 정리
+# 컴퓨터 세팅 및 에러/코드 관련
 
+## 우분투 세팅
 1. vim 에디터 꾸미기 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/1.%20vimrc%20settings.md)
 
 2. oh my zsh 사용하기 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/2.%20install%20oh%20my%20zsh.md)
@@ -13,12 +14,26 @@
 6. 에러를 예쁘게 출력하기 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/6.%20install%20pretty_errors.md)
 
 7. 메모리 GPU 사용량 확인 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/7.%20install%20htop%20glances.md)   
-   
+
+8. 원격 접속 세팅 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/8.%20ssh%20settings.md)    
+
+9. 우분투 폴더명 한국어에서 영어로 바꾸기 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/9.%20kor%20folder%20names%20into%20eng.md)  
 
 <br>
 
-### 그 외     
-+ .gitignore 안 먹힐 때 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/applying%20gitignore.md)    
-+ 우분투 폴더명 한국어에서 영어로 바꾸기 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/kor%20folder%20names%20into%20eng.md)     
-+ 원격 접속 세팅 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/ssh%20settings.md)    
-+ vscode에서 폰트 에러날 때 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/vscode%20font%20error.md)    
+### vscode 관련         
++ 유용한 extensions [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/Vscode1_vscode%20useful%20extensions.md)       
++ 폰트 에러날 때 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/Vscode2_font%20error.md)      
++ .gitignore 적용이 안될 때 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/Vscode3_applying%20gitignore.md)          
+
+<br>
+
+## 에러 해결     
++ TypeError: Descriptors cannot not be created directly (protoc >= 3.19.0) [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/Error1_Descriptors%20cannot%20not%20be%20created%20directly.md)    
++ AttributeError: 'DataParallel' object has no attribute ( ____ )  [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/Error1_Descriptors%20cannot%20not%20be%20created%20directly.md)    
+
+<br>
+
+## 코드 참고       
++ 프로세스 이름 설정해주기 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/Code1_set%20process%20name.md)     
++ multi GPU 세팅 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/Code2_multi%20gpu%20settings.md)      
