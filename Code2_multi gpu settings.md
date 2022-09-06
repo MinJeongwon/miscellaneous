@@ -80,6 +80,6 @@ def data_parallel(module, input, device_ids, output_device):
 
 <br>
 
-출처 : https://medium.com/daangn/pytorch-multi-gpu-%ED%95%99%EC%8A%B5-%EC%A0%9C%EB%8C%80%EB%A1%9C-%ED%95%98%EA%B8%B0-27270617936b
-https://kongsberg.tistory.com/7
+출처 : https://medium.com/daangn/pytorch-multi-gpu-%ED%95%99%EC%8A%B5-%EC%A0%9C%EB%8C%80%EB%A1%9C-%ED%95%98%EA%B8%B0-27270617936b     
+https://kongsberg.tistory.com/7     
 https://cryptosalamander.tistory.com/147 

@@ -1,5 +1,3 @@
-# 컴퓨터 세팅 및 에러/코드 관련
-
 ## 우분투 세팅
 1. vim 에디터 꾸미기 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/1.%20vimrc%20settings.md)
 
@@ -30,7 +28,7 @@
 
 ## 에러 해결     
 + TypeError: Descriptors cannot not be created directly (protoc >= 3.19.0) [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/Error1_Descriptors%20cannot%20not%20be%20created%20directly.md)    
-+ AttributeError: 'DataParallel' object has no attribute ( ____ )  [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/Error1_Descriptors%20cannot%20not%20be%20created%20directly.md)    
++ AttributeError: 'DataParallel' object has no attribute ( ____ )  [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/Error2_AttributeError:%20'DataParallel'%20object%20has%20no%20attribute.md)    
 
 <br>
 
