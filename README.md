@@ -23,7 +23,7 @@
 + 유용한 extensions [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/Vscode1_vscode%20useful%20extensions.md)       
 + 폰트 에러날 때 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/Vscode2_font%20error.md)      
 + .gitignore 적용이 안될 때 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/Vscode3_applying%20gitignore.md)   
-+ .vscode 원격 환경에서 기본적으로 zsh 사용하기 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/Vscode4_shell%20settings%20bash%20to%20zsh.md)          
++ .vscode 원격 환경에서 기본적으로 zsh 사용하기 [**GO**](https://github.com/MinJeongwon/miscellaneous/blob/main/Vscode4_shell%20settings%20bash%20to%20zsh.md)          
 + torch.distributed 디버깅 [**GO**](https://github.com/MinJeongwon/settings_ubuntu/blob/main/Vscode5_run%20torch%20distributed%20with%20debugger.md)        
 
 <br>
